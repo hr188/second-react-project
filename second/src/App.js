@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Videos from "./components/Videos";
 import Upload from "./components/Upload";
+import Signup from "./components/Signup";
+import Login from "./components/Login";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
             <Route path="/" element={<Home />} />   
             <Route path="/Videos" element={<Videos />} />   
             <Route path="/Upload" element={<Upload />} />   
+            <Route path="/Login" element={<Login />} />   
+            <Route path="/Signup" element={<Signup />} />   
 
         </Routes>
         <Footer/>
